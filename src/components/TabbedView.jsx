@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const TabbedView = ({ classname, items, renderItem }) => {
+const TabbedView = ({ className, items, renderItem }) => {
   const [active, setActive] = useState(0);
 
   return (
